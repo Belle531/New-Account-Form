@@ -1,0 +1,42 @@
+body {
+    font: Arial, sams-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-container {
+    background-color: white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba (0, 0,  0, 0.1);
+    width: 30%;
+    text-align: center;
+
+}
+
+h2 {
+    color: #1877f2
+}
+
+p {
+    color: #606770;
+}
+
+input, button {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border-radius: 5px;
+border: 1px solid #ddd;
+}
+
+button {
+    color:#1877f2;
+}
+
+.language-options {
+display: flex;
+margin-top: 5px;
+justify-content: center;
+}

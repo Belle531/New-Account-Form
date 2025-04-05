@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>New Account Form</title>
+     <link rel="stylesheet" href="styles.css">
+  </head>
+  
+  <body>
+    <div id="form-container">
+        <h2>Create a New Account></h2>
+        <p>It's quick and easy</p>
+    
+        <form id="registration-form" action="/">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" placeholder="First Name" required />
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" placeholder="Last Name" required />
+
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <label id="birthday">Birthday</label>
+        <input type="date" required />
+        <label for="language">Language</label>
+        <div class="language-options">
+          <label>
+            <input type="radio" name="language" value="English" checked />
+            English
+          </label>
+          <label>
+            <input type="radio" name="language" value="Spanish" />
+            Spanish
+          </label>
+          <label>
+            <input type="radio" name="language" value="French" />
+            French
+          </label>
+          <label>
+            <input type="radio" name="language" value="Other" />
+            Other
+          </label>
+        </div>
+        <button type="submit">Sign UP</button>
+      </form>
+    </div>
+    <div id="formDataOutput"></div>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
